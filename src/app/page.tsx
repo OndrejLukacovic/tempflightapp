@@ -156,7 +156,9 @@ export default function Home() {
         </Box>
         <Box>
           {/* Flights list table */}
-          <Typography variant="h6" gutterBottom>Flights List</Typography>
+          <Typography variant="h6" gutterBottom sx={{ color: '#111' }}>
+            Flights List
+          </Typography>
           <TableContainer component={Paper} sx={{ height: 400, maxHeight: 400, minHeight: 400, background: '#e3f2fd', width: '100%', color: '#111', display: 'flex', flexDirection: 'column' }}>
             <Table stickyHeader sx={{ width: '100%', color: '#111', flex: 1, tableLayout: 'fixed' }}>
               <TableHead>
